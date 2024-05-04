@@ -1,0 +1,36 @@
+Expense Tracker App
+
+Overview
+
+Expense Tracker is a Windows desktop application designed to help users manage their personal finances by tracking daily expenses. The application offers an intuitive graphical user interface, making it easy to record, view, and analyze spending patterns over time.
+Features
+
+    Add Expense: Quickly add expense entries by specifying the date, category, and amount.
+    View Expenses: Users can view expenses in two formats:
+        Monthly Expenses: Displays expenses for a selected month.
+        Total Expenses: Shows a summary of expenses grouped by month, along with changes compared to previous months.
+    Save to Excel: Allows users to export their expense data to an Excel file, facilitating backups and offline analysis.
+    Load from Excel: Users can import expense data from an Excel file, making data restoration or transfer simple and efficient.
+    Clear Data: Provides options to clear all data or data for a specific month or date, aiding in easy management and privacy.
+    Exit: Safely close the application.
+
+Built With
+
+    Python: The core programming language used for the application.
+    PyQt5: A set of Python bindings for The Qt Company’s Qt application framework, used for crafting the graphical user interface.
+    Pandas: A data manipulation and analysis library used for handling expense data.
+    openpyxl: A library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files, used for exporting to and importing from Excel.
+    PyInstaller: A tool used to package Python applications into stand-alone executables, under Windows, Linux, and Mac OS X.
+
+
+Usage
+
+Launch the application by executing Expense_APP.exe. The user interface is straightforward, with buttons for each primary function described in the Features section above.
+Contributing
+
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+License
+
+Distributed under the MIT License. See LICENSE for more information.
+Contact
+
